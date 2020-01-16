@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JOBS>
+    <JOB>
+        <name>JDWH3</name>
+        <jobType>DWH</jobType>
+        <scheduledDate></scheduledDate>
+        <interVal>0</interVal>
+        <priority>LOW</priority>
+        <runStatement>exec pck.der</runStatement>
+        <sqlText>select * from class</sqlText>
+    </JOB>
+    <JOB>
+        <name>EMAIL3</name>
+        <jobType>EMAIL</jobType>
+        <scheduledDate></scheduledDate>
+        <interVal>0</interVal>
+        <priority>LOW</priority>
+        <runStatement>exec pck.der</runStatement>
+        <emailStrs>hkarabas@gmail.com</emailStrs>
+        <bodyStrs>Hello Test Email</bodyStrs>
+        <subjectStrs>Test</subjectStrs>
+    </JOB>
+</JOBS>
